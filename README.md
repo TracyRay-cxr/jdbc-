@@ -124,8 +124,8 @@ delflag[这里的delflag属性设为int类型，0表示不删除状态，默认�
                 "C:" + optionC +"\t\n"+
                 "D:" + optionD + "\t\n"
                ;
+        }
     }
-}
 2.
 定义sysexam类，实现用jdbc对数据库的链接，并将sql查询结果放入Resultset集保存，
 用Resultset.getXXX()方法将数据赋值给变量，并利用变量进行创建试题类对象存放在
@@ -385,9 +385,9 @@ delflag[这里的delflag属性设为int类型，0表示不删除状态，默认�
             case 2:changeexam("sys","root","root");break;
             case 3:delexam(list);break;
             case 4:selexam("sys","root","root");break;
+            }
         }
     }
-}
 
 
 
