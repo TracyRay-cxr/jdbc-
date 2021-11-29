@@ -7,6 +7,13 @@ delflag[这里的delflag属性设为int类型，0表示不删除状态，默认�
 并重写tostring方法}：
 
 代码如下：
+
+
+
+
+
+
+
 public class examclass {
     private String id;
     private String tatil;
@@ -125,6 +132,22 @@ public class examclass {
 数据结构ArrayList（注意泛型）存储：
 
 代码如下：
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 import java.sql.*;
 import java.util.ArrayList;
 
